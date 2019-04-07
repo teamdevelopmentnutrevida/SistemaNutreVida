@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TO", "TO\TO.csproj", "{99FBE68D-8F82-4652-81A1-564BEE2010F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{CF5F190F-C4F6-4EB9-BD75-196F818F6FB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IU", "IU\IU.csproj", "{78281EFA-0283-48F3-920C-95B607E821D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{99FBE68D-8F82-4652-81A1-564BEE2010F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99FBE68D-8F82-4652-81A1-564BEE2010F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99FBE68D-8F82-4652-81A1-564BEE2010F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF5F190F-C4F6-4EB9-BD75-196F818F6FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF5F190F-C4F6-4EB9-BD75-196F818F6FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF5F190F-C4F6-4EB9-BD75-196F818F6FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF5F190F-C4F6-4EB9-BD75-196F818F6FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78281EFA-0283-48F3-920C-95B607E821D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78281EFA-0283-48F3-920C-95B607E821D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78281EFA-0283-48F3-920C-95B607E821D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78281EFA-0283-48F3-920C-95B607E821D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

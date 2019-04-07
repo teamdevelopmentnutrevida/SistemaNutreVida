@@ -1,0 +1,38 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterNutreVida.master.vb" Inherits="UII.MasterNutreVida" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+	<link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+			<div class="container">
+				<div class="row">
+					<div class="my-fixed-item">
+						CONSULTORIO NUTRE VIDA
+					</div>
+					<div class="col-md-2 green">
+					
+					</div>
+					<div class="col-md-10">
+						<h1>VIVA LA LIGA</h1>
+					</div>
+				</div>
+			</div>
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
