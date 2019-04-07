@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-	<nav class="navbar navbar-expand-sm justify-content-end greenNav">
+	<%--<nav class="navbar navbar-expand-sm justify-content-end greenNav">
 		<form class="form-inline" action="/action_page.php">
 			<input class="form-control" type="text" placeholder="Search" />
 			<button class="btn btn-dark" type="submit">Search</button>
@@ -21,5 +21,5 @@
         
         
       </div>
-    </section>
+    </section>--%>
 </asp:Content>
