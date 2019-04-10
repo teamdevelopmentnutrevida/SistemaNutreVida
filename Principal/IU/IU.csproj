@@ -95,10 +95,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\admin_estilos.css" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\tabla.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="SeguimientoSemanal.aspx" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="NutreVidaMaster.Master" />
     <None Include="Web.Debug.config">
@@ -141,6 +145,13 @@
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeguimientoSemanal.aspx.cs">
+      <DependentUpon>SeguimientoSemanal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeguimientoSemanal.aspx.designer.cs">
+      <DependentUpon>SeguimientoSemanal.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

@@ -22,5 +22,16 @@ namespace DAO.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=sql5027.site4now.net;Initial Catalog=DB_A474D1_NutreVida;User Id=DB_A" +
+            "474D1_NutreVida_admin;Password=NutreVida2019;")]
+        public string conexion {
+            get {
+                return ((string)(this["conexion"]));
+            }
+        }
     }
 }
