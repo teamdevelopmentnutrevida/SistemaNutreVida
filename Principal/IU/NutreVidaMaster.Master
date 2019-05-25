@@ -60,22 +60,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="PrimerIngreso.aspx">Primer Ingreso</a>
+                    <a class="nav-link js-scroll-trigger" href="PrimerIngreso.aspx">Agenda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Seguimiento Semanal</a>
+                    <a class="nav-link js-scroll-trigger" href="Expedientes.aspx">Expedientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Seguimiento Mensual</a>
+                    <a class="nav-link js-scroll-trigger" href="#">Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Ver Expedientes</a>
+                    <a class="nav-link js-scroll-trigger" href="#">Notificación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Modificar perfil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Salir</a>
+                    <a class="nav-link js-scroll-trigger" href="#">Cerrar Sesión</a>
                 </li>
             </ul>
         </div>

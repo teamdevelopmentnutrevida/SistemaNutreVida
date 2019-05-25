@@ -25,6 +25,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/3d6e0507-57c1-4f86-847c-ec3118bbfecd/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/IU</ApplicationInsightsResourceId>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,6 +99,7 @@
     <Content Include="css\admin_estilos.css" />
     <Content Include="css\skel.css" />
     <Content Include="css\tabla.css" />
+    <Content Include="Expedientes.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -123,6 +125,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Expedientes.aspx.cs">
+      <DependentUpon>Expedientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Expedientes.aspx.designer.cs">
+      <DependentUpon>Expedientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="NutreVidaMaster.Master.cs">
       <DependentUpon>NutreVidaMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
