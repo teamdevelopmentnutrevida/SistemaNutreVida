@@ -126,27 +126,8 @@
     <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
-    <Content Include="ccss\resume.min.css" />
+    <Content Include="css\resume.min.css" />
     <Content Include="Cliente.aspx" />
-    <Content Include="css\admin_estilos.css" />
-    <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\ie\html5shiv.js" />
-    <Content Include="css\ie\PIE.htc" />
-    <Content Include="css\ie\v8.css" />
-    <Content Include="css\pikaday.css" />
-    <Content Include="css\site.css" />
-    <Content Include="css\skel-noscript.css" />
-    <Content Include="css\skel.css" />
-    <Content Include="css\style-desktop.css" />
-    <Content Include="css\style-mobile.css" />
-    <Content Include="css\style-narrow.css" />
-    <Content Include="css\style-narrower.css" />
-    <Content Include="css\style-normal.css" />
-    <Content Include="css\style-wide.css" />
-    <Content Include="css\style.css" />
-    <Content Include="css\tabla.css" />
-    <Content Include="css\theme.css" />
-    <Content Include="css\triangle.css" />
     <Content Include="Expedientes.aspx" />
     <Content Include="js\alertify.js" />
     <Content Include="js\buscador.js" />
@@ -166,7 +147,6 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="SeguimientoSemanal.aspx" />
-    <Content Include="NutreVidaMaster.Master" />
     <Content Include="bin\ApplicationInsights.config" />
     <Content Include="bin\DAO.dll.config" />
     <Content Include="bin\IU.dll.config" />
@@ -185,7 +165,6 @@
   <ItemGroup>
     <Content Include="img\fondo.jpg" />
     <Content Include="img\nutriVital.jfif" />
-    <Content Include="PrimerIngreso.aspx" />
     <Content Include="Principal.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -210,22 +189,9 @@
     <Compile Include="MasterNutreVida.Master.designer.cs">
       <DependentUpon>MasterNutreVida.Master</DependentUpon>
     </Compile>
-    <Compile Include="NutreVidaMaster.Master.cs">
-      <DependentUpon>NutreVidaMaster.Master</DependentUpon>
-    </Compile>
-    <Compile Include="NutreVidaMaster.Master.designer.cs">
-      <DependentUpon>NutreVidaMaster.Master</DependentUpon>
-    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="PrimerIngreso.aspx.cs">
-      <DependentUpon>PrimerIngreso.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PrimerIngreso.aspx.designer.cs">
-      <DependentUpon>PrimerIngreso.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
