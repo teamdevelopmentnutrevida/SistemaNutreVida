@@ -18,7 +18,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"/>
 
   <!-- Custom styles for this template -->
-  <link href="ccss/resume.min.css" rel="stylesheet"/>
+  <link href="css/resume.min.css" rel="stylesheet"/>
   
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -29,10 +29,11 @@
 
 
 	<!-- Este es el primer nav, el verde de arriba -->
-    <nav class="navbar navbar-expand-sm justify-content-end greenNav">
+    <nav class="navbar navbar-expand-sm justify-content-end" style="background-color:rgb(62, 136, 121)">
         <form class="form-inline" action="/action_page.php">
-            <input class="form-control" type="text" placeholder="Search" />
-            <button class="btn btn-dark" type="submit">Search</button>
+         <span class="glyphicon .glyphicon-bell"></span>
+            <button class="glyphicon glyphicon-bell" type="submit">Notif</button>
+			<span class="input-group-addon"><span class="glyphicon glyphicon-bell"></span></span>
         </form>
     </nav>
 
@@ -69,23 +70,7 @@
         </div>
   </nav>
 
-  <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Nutre 
-          <span class="text-primary">Vida</span>
-        </h1>
-        <div class="subheading mb-5">San Ramón· Elky Fernandez, cod nutri · (506) 585-8468 ·
-          <a href="mailto:name@email.com">elky@email.com</a>
-        </div>
-        <p class="lead mb-5">PRUEBA.</p>
-        
-      </div>
-    </section>
-
-
-  </div>
 
  
     <div>

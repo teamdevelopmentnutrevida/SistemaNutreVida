@@ -10,7 +10,7 @@
 namespace IU {
     
     
-    public partial class Principal {
+    public partial class prueba {
         
         /// <summary>
         /// form1 control.
