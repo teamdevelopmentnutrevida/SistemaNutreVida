@@ -130,6 +130,8 @@
     <Content Include="css\resume.min.css" />
     <Content Include="Cliente.aspx" />
     <Content Include="Expedientes.aspx" />
+    <Content Include="img\InicioSesion.jpg" />
+    <Content Include="IniciarSesion.aspx" />
     <Content Include="js\alertify.js" />
     <Content Include="js\buscador.js" />
     <Content Include="js\init.js" />
@@ -144,7 +146,9 @@
     <Content Include="obj\Debug\IU.dll" />
     <Content Include="obj\Debug\IU.pdb" />
     <Content Include="MasterNutreVida.Master" />
+    <Content Include="MasterInicioSesion.Master" />
     <None Include="packages.config" />
+    <Content Include="OlvidoContrasena.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="SeguimientoSemanal.aspx" />
@@ -190,6 +194,20 @@
     <Compile Include="Expedientes.aspx.designer.cs">
       <DependentUpon>Expedientes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IniciarSesion.aspx.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IniciarSesion.aspx.designer.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterInicioSesion.Master.cs">
+      <DependentUpon>MasterInicioSesion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterInicioSesion.Master.designer.cs">
+      <DependentUpon>MasterInicioSesion.Master</DependentUpon>
+    </Compile>
     <Compile Include="MasterNutreVida.Master.cs">
       <DependentUpon>MasterNutreVida.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -200,6 +218,13 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OlvidoContrasena.aspx.cs">
+      <DependentUpon>OlvidoContrasena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvidoContrasena.aspx.designer.cs">
+      <DependentUpon>OlvidoContrasena.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
