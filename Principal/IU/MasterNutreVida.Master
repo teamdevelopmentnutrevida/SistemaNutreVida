@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterNutreVida.master.cs" Inherits="IU.MasterNutreVida" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet"/>
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"/>
+
+  <!-- Custom styles for this template -->
+  <link href="ccss/resume.min.css" rel="stylesheet"/>
+  
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+
+	<!-- Este es el primer nav, el verde de arriba -->
+    <nav class="navbar navbar-expand-sm justify-content-end greenNav">
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control" type="text" placeholder="Search" />
+            <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+     <!-- Este es el otro nav, el naranja de la izquierda -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="PrimerIngreso.aspx">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="Expedientes.aspx">Expedientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Primer Ingreso</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Notificación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Nutre 
+          <span class="text-primary">Vida</span>
+        </h1>
+        <div class="subheading mb-5">San Ramón· Elky Fernandez, cod nutri · (506) 585-8468 ·
+          <a href="mailto:name@email.com">elky@email.com</a>
+        </div>
+        <p class="lead mb-5">PRUEBA.</p>
+        
+      </div>
+    </section>
+
+
+  </div>
+
+ 
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   
+</body>
+</html>

@@ -126,6 +126,7 @@
     <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="ccss\resume.min.css" />
     <Content Include="css\admin_estilos.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\ie\html5shiv.js" />
@@ -158,7 +159,9 @@
     <Content Include="obj\Debug\IU.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\IU.dll" />
     <Content Include="obj\Debug\IU.pdb" />
+    <Content Include="MasterNutreVida.Master" />
     <None Include="packages.config" />
+    <Content Include="prueba.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="SeguimientoSemanal.aspx" />
@@ -175,6 +178,7 @@
     <Content Include="obj\Debug\IU.csprojAssemblyReference.cache" />
     <Content Include="obj\Release\IU.csproj.CoreCompileInputs.cache" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +194,13 @@
     </Compile>
     <Compile Include="Expedientes.aspx.designer.cs">
       <DependentUpon>Expedientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterNutreVida.Master.cs">
+      <DependentUpon>MasterNutreVida.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterNutreVida.Master.designer.cs">
+      <DependentUpon>MasterNutreVida.Master</DependentUpon>
     </Compile>
     <Compile Include="NutreVidaMaster.Master.cs">
       <DependentUpon>NutreVidaMaster.Master</DependentUpon>
@@ -216,6 +227,13 @@
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prueba.aspx.cs">
+      <DependentUpon>prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prueba.aspx.designer.cs">
+      <DependentUpon>prueba.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SeguimientoSemanal.aspx.cs">
       <DependentUpon>SeguimientoSemanal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
