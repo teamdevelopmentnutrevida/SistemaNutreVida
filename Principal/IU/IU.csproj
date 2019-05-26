@@ -146,7 +146,9 @@
     <Content Include="css\theme.css" />
     <Content Include="css\triangle.css" />
     <Content Include="Expedientes.aspx" />
+    <Content Include="Cliente.aspx" />
     <Content Include="js\alertify.js" />
+    <Content Include="js\buscador.js" />
     <Content Include="js\init.js" />
     <Content Include="js\jquery-1.4.1.min.js" />
     <Content Include="js\jquery.dropotron.min.js" />
@@ -190,6 +192,13 @@
     </Compile>
     <Compile Include="Expedientes.aspx.designer.cs">
       <DependentUpon>Expedientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.aspx.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente.aspx.designer.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="NutreVidaMaster.Master.cs">
       <DependentUpon>NutreVidaMaster.Master</DependentUpon>

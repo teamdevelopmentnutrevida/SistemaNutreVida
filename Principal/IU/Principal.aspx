@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NutreVidaMaster.Master" AutoEventWireup="true" CodeBehind="Principal.aspx.cs" Inherits="IU.Principal" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-	<link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-	<%--<nav class="navbar navbar-expand-sm justify-content-end greenNav">
+	<form id="form1" runat="server">
+        <%--<nav class="navbar navbar-expand-sm justify-content-end greenNav">
 		<form class="form-inline" action="/action_page.php">
 			<input class="form-control" type="text" placeholder="Search" />
 			<button class="btn btn-dark" type="submit">Search</button>
@@ -22,4 +23,6 @@
         
       </div>
     </section>--%>
+        <asp:Calendar ID="Calendar1" runat="server" Width="649px"></asp:Calendar>
+    </form>
 </asp:Content>
