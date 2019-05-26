@@ -11,6 +11,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"/>
@@ -29,12 +30,12 @@
 
 
 	<!-- Este es el primer nav, el verde de arriba -->
-    <nav class="navbar navbar-expand-sm justify-content-end" style="background-color:rgb(62, 136, 121)">
+    <nav class="navbar navbar-expand-md justify-content-end" style="background-color:rgb(62, 136, 121)">
         <form class="form-inline" action="/action_page.php">
          <span class="glyphicon .glyphicon-bell"></span>
-            <button class="glyphicon glyphicon-bell" type="submit">Notif</button>
-			<span class="input-group-addon"><span class="glyphicon glyphicon-bell"></span></span>
-        </form>
+            <button class="btn glyphicon glyphicon-bell" type="submit"></button>
+			<button class="btn glyphicon glyphicon-log-out" type="submit"></button>
+	      </form>
     </nav>
 
 
@@ -43,7 +44,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Clarence Taylor</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid" src="img/nutriVital.jfif"/>
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
