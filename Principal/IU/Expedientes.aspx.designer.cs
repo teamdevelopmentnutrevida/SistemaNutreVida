@@ -13,15 +13,6 @@ namespace IU {
     public partial class Expedientes {
         
         /// <summary>
-        /// buscador control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox buscador;
-        
-        /// <summary>
         /// CedCliente control.
         /// </summary>
         /// <remarks>
@@ -29,6 +20,15 @@ namespace IU {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton CedCliente;
+        
+        /// <summary>
+        /// NombCl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label NombCl;
         
         /// <summary>
         /// Deshabil control.
@@ -56,6 +56,15 @@ namespace IU {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton ced2;
+        
+        /// <summary>
+        /// NombCl2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label NombCl2;
         
         /// <summary>
         /// des2 control.

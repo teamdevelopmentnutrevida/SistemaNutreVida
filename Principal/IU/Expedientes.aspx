@@ -22,43 +22,44 @@
             else
                 return seleccion;
         }
-    </script>    
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Expediente</h1>
-       
-        <p class="lead mb-5">Pruena Expediente</p>
+    </script>   
+    <div class="col-10">
+        <h2 class="mb-0">Expediente</h2>
 
-      </div>
-    </section>
-    <form runat="server">
+        <form runat="server">
     <div>
          <p class="buscador">
             <asp:Label runat="server">Buscar:</asp:Label>
-            <asp:TextBox ID="buscador" type="input" value="" runat="server"></asp:TextBox>
+            <input id="buscador" value="" type="text" />
+            <%--<asp:TextBox ID="buscador" type="input" value="" runat="server" ></asp:TextBox>--%>
         </p>
     </div>
-        <table style="width:60%">
+       
+        <table style="width:100%" id="ListaClientes">
           <tr>
             <th>Cedula</th>
             <th>Nombre</th> 
             <th>Deshabilitar</th>
             <th>Eliminar</th>
           </tr>
-          <tr>
+          <tr class="item">
             <td><asp:LinkButton runat="server" ID="CedCliente" OnClick="CedCliente_Click">203330222</asp:LinkButton></td>
-            <td>Smith</td> 
+            <td><asp:Label runat="server" ID="NombCl">Smith Rojas</asp:Label></td> 
             <td><asp:LinkButton runat="server" ID="Deshabil" OnClientClick="Confirmacion()">Deshabilitar</asp:LinkButton></td>
             <td><asp:LinkButton runat="server" ID="Elim" OnClientClick="Eliminar()">Eliminar</asp:LinkButton></td>
           </tr>
-          <tr>
-            <td><asp:LinkButton runat="server" ID="ced2" OnClick="CedCliente_Click">203330222</asp:LinkButton></td>
-            <td>Jackson</td> 
+          <tr class="item">
+            <td><asp:LinkButton runat="server" ID="ced2" OnClick="CedCliente_Click">203330221</asp:LinkButton></td>
+            <td><asp:Label runat="server" ID="NombCl2">Jackson Sanchez</asp:Label></td> 
              <td><asp:LinkButton runat="server" ID="des2" OnClientClick="Confirmacion()">Deshabilitar</asp:LinkButton></td>
             <td><asp:LinkButton runat="server" ID="elim2" OnClientClick="Eliminar()">Eliminar</asp:LinkButton></td>
           </tr>
         </table>
 
         </form>
+    </div>
+     
+    
+    
 
 </asp:Content>
