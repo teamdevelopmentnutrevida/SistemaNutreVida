@@ -1,5 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NutreVidaMaster.Master" AutoEventWireup="true" CodeBehind="Cliente.aspx.cs" Inherits="IU.Expediente.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterNutreVida.Master" AutoEventWireup="true" CodeBehind="Cliente.aspx.cs" Inherits="IU.Cliente" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 /*body {font-family: Arial;}*/
@@ -42,7 +44,7 @@
 }
 </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <form id="form1" runat="server">
         <div class="w-100">
