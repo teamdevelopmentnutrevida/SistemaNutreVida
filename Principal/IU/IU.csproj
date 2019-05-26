@@ -163,7 +163,6 @@
     <Content Include="obj\Debug\IU.pdb" />
     <Content Include="MasterNutreVida.Master" />
     <None Include="packages.config" />
-    <Content Include="prueba.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="SeguimientoSemanal.aspx" />
@@ -235,12 +234,6 @@
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="prueba.aspx.cs">
-      <DependentUpon>prueba.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="prueba.aspx.designer.cs">
-      <DependentUpon>prueba.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SeguimientoSemanal.aspx.cs">
       <DependentUpon>SeguimientoSemanal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
