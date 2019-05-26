@@ -126,6 +126,7 @@
     <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="Clients.aspx" />
     <Content Include="css\resume.min.css" />
     <Content Include="Expedientes.aspx" />
     <Content Include="js\alertify.js" />
@@ -167,6 +168,13 @@
     <Content Include="PrimerIngreso.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clients.aspx.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients.aspx.designer.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Expedientes.aspx.cs">
       <DependentUpon>Expedientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
