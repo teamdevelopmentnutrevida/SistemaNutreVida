@@ -1,9 +1,9 @@
-﻿<%@ Page Title="Expedientes" Language="C#" MasterPageFile="~/NutreVidaMaster.Master" AutoEventWireup="true" CodeBehind="Expedientes.aspx.cs" Inherits="IU.Expedientes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterNutreVida.Master" AutoEventWireup="true" CodeBehind="Expedientes.aspx.cs" Inherits="IU.Expedientes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="/js/buscador.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-    <script type="text/javascript">
+     <script type="text/javascript">
         function Confirmacion() {
             var seleccion = confirm("Desea deshabilitar al cliente?");
             if (seleccion)
@@ -60,4 +60,5 @@
         </table>
 
         </form>
+
 </asp:Content>

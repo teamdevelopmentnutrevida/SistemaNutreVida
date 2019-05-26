@@ -127,6 +127,7 @@
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="ccss\resume.min.css" />
+    <Content Include="Cliente.aspx" />
     <Content Include="css\admin_estilos.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\ie\html5shiv.js" />
@@ -148,6 +149,7 @@
     <Content Include="css\triangle.css" />
     <Content Include="Expedientes.aspx" />
     <Content Include="js\alertify.js" />
+    <Content Include="js\buscador.js" />
     <Content Include="js\init.js" />
     <Content Include="js\jquery-1.4.1.min.js" />
     <Content Include="js\jquery.dropotron.min.js" />
@@ -188,6 +190,13 @@
     <Content Include="Principal.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.aspx.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente.aspx.designer.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Expedientes.aspx.cs">
       <DependentUpon>Expedientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IU.Expediente {
+namespace IU {
     
     
-    public partial class WebForm1 {
+    public partial class Cliente {
         
         /// <summary>
         /// form1 control.
