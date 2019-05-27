@@ -129,6 +129,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="css\resume.min.css" />
     <Content Include="Cliente.aspx" />
+    <Content Include="css\tablist.css" />
     <Content Include="Expedientes.aspx" />
     <Content Include="img\InicioSesion.jpg" />
     <Content Include="IniciarSesion.aspx" />
