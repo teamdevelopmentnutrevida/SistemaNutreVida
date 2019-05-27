@@ -1,49 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterNutreVida.Master" AutoEventWireup="true" MaintainScrollPositionOnPostback="true" CodeBehind="Cliente.aspx.cs" Inherits="IU.Cliente" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <%--<meta name="viewport" content="width=device-width, initial-scale=1">--%>
-<style>
-/*body {font-family: Arial;}*/
-
-/* Style the tab */
-.tab {
-  overflow:auto;
-  border: 1px #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 7px 8px;
-  transition: 0.3s;
-  font-size: 15px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #BFDCC0;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #FF7F40;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 10px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-</style>
+ 
+    <link href="css/tablist.css" rel="stylesheet"/>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form id="form1" runat="server">
+   
         <div class="col-11">
             <h3>Información del Cliente:</h3>
         </div>
@@ -90,7 +51,7 @@
                 <br />
                 </div>    
         </div>
-    </form>
+
     <br />
 
    <div class="col-11" style="width:100%; float:left;">
@@ -430,7 +391,7 @@
                     <label class="form-label" for="tSuplem">Suplementos:</label><asp:Label runat="server" ID="PSuplemnt" Font-Size="Medium"></asp:Label>
                 </div>
             </div>
-
+            <br />
             <h4>Distribución de porciones entregadas:</h4>
             <table class="table">
                <tr>
@@ -475,17 +436,54 @@
               </tr>
             </table>
         </div>
-        
+      <form id="form1" runat="server">   
         <div id="SS" class="tabcontent">
           <h3>Seguimiento Semanal</h3>
-          <p>Falta info</p>
+                <div style="width:25%; float:left;">
+                <div class="col-11" style="width:25%;">
+                    <asp:TextBox runat="server" ID="PesoSeguim" placeholder="Peso"></asp:TextBox>
+                </div>
+            </div>
+            <div style="width:25%; float:left;">
+                <div class="col-11" style="width:25%;">
+                    <asp:TextBox runat="server" ID="OrejaSegum" placeholder="Oreja"></asp:TextBox>
+                </div>
+            </div>
+            <div style="width:25%; float:left;">
+                <div class="col-11" style="width:25%;">
+                    <asp:TextBox runat="server" ID="EjercSeguim" placeholder="Ejercicio"></asp:TextBox>
+                </div>
+            </div>
+            <div style="width:25%; float:left;">
+                <div class="col-11" style="width:25%;">
+                    <asp:Button runat="server" ID="Agregar" Text="Agregar"></asp:Button>
+                </div>
+            </div>
+            <br />
+            <h4>Lista Seguimientos:</h4>
+            <table class="table">
+                <tr>
+                    <th scope="col">Sesión</th>
+                    <th scope="col">Fecha</th> 
+                    <th scope="col">Peso</th>
+                    <th scope="col">Oreja</th>
+                    <th scope="col">Ejercicio</th>
+               </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
 
         <div id="SM" class="tabcontent">
           <h3>Seguimiento Mensual</h3>
           <p>Falta muuucha info</p>
         </div>
-  
+  </form>
         <script>
         function openInfo(evt, sec) {
           var i, tabcontent, tablinks;
