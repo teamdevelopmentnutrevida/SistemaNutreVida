@@ -6,7 +6,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
         <div class="col-11">
-            <h3>Información del Cliente:</h3>
+            <h3 class="mb-0" style="font-size: 36px">Información <span class="text-primary">Personal</span></h3>
         </div>
 <%--        <div class="form-container">--%>
         <div>
@@ -64,7 +64,7 @@
         </div>
 
         <div id="HM" class="tabcontent">
-            <h4>Historial Medico</h4>
+           <h4 class="mb-0" style="font-size: 36px">Historial <span class="text-primary">Médico</span></h4>
             <div class="col-11" style="width:100%;">
                 <label class="form-label" for="tAntFam">Antecedentes Familiares:</label><asp:Label runat="server" ID="AntecedF" Font-Size="Medium"></asp:Label>
             </div>
@@ -109,9 +109,9 @@
             </div>
         </div>
        
-
+<%--       Habitos alimentarios--%>
         <div id="HA" class="tabcontent">
-          <h4>Habitos Alimentarios</h4>
+          <h4 class="mb-0" style="font-size: 36px">Habitos <span class="text-primary">Alimentarios</span></h4>
           <div class="col-11" style="width:100%;">
                  <label class="form-label" for="tComD">¿Cuántas veces come al día? </label>
                  <asp:Label runat="server" ID="ComeDiario" Font-Size="Medium"></asp:Label>
@@ -214,8 +214,9 @@
             </table>
         </div>
 
+      <%-- Antropometria--%>
         <div id="Ant" class="tabcontent">
-          <h4>Antropometría</h4>
+          <h4 class="mb-0" style="font-size: 36px">Antro<span class="text-primary">pometría</span></h4>
            <div>
             <div class="col-11" style="width:50%; float:left;">
                 <div class="col-11" style="width:50%;">
@@ -436,9 +437,15 @@
               </tr>
             </table>
         </div>
+
+
+
       <form id="form1" runat="server">   
+
+          <%--Seguimiento semanal--%>
+
         <div id="SS" class="tabcontent">
-          <h3>Seguimiento Semanal</h3>
+         <h4 class="mb-0" style="font-size: 36px">Seguimientos <span class="text-primary">Semanales</span></h4>
                 <div style="width:25%; float:left;">
                 <div class="col-11" style="width:25%;">
                     <asp:TextBox runat="server" ID="PesoSeguim" placeholder="Peso"></asp:TextBox>
@@ -460,6 +467,7 @@
                 </div>
             </div>
             <br />
+            <br />
             <h4>Lista Seguimientos:</h4>
             <table class="table">
                 <tr>
@@ -479,9 +487,29 @@
             </table>
         </div>
 
+        <%--  Seguimiento mensual--%>
         <div id="SM" class="tabcontent">
-          <h3>Seguimiento Mensual</h3>
-          <p>Falta muuucha info</p>
+          <h4 class="mb-0" style="font-size: 36px">Seguimientos <span class="text-primary">Nutricionales</span></h4>
+           <div style="width:50%; float:left;">
+               <h4>Nuevo Registro</h4>
+               <div class="col-11" style="width:50%;">
+                <label class="form-label" for="tejeSem">Días de ejercicio semanales: </label>
+                <asp:Label runat="server" ID="Label2" Font-Size="Medium"></asp:Label>
+               </div>
+               <div class="col-11" style="width:50%;">
+                <label class="form-label" for="tejeSem">Comidas Extras: </label>
+                <asp:Label runat="server" ID="ComidsExtras" Font-Size="Medium"></asp:Label>
+               </div>
+               <div class="col-11" style="width:50%;">
+                <label class="form-label" for="tejeSem">Niveles de Ansiedad semanal y tiempo de comida en donde lo siente : </label>
+                <asp:Label runat="server" ID="Label4" Font-Size="Medium"></asp:Label>
+               </div>
+           </div>
+            <br />
+            <h4>Registro Anterior</h4>
+           <div style="width:50%; float:left;">
+           </div>
+            <br />
         </div>
   </form>
         <script>

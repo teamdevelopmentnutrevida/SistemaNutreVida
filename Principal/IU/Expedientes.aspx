@@ -29,12 +29,12 @@
     </div>
         <form runat="server">
           <br />
-            <div class="col-11" style="width:50%;">
+            <div class="col-11" style="width:100%;">
                 <label class="form-label" for="tBusc">Buscar:</label>
                  <input id="buscador" value="" type="text" />
             </div>
            
-           
+           <br />
 
     <table class="table" id="ListaClientes">
         <tr>
