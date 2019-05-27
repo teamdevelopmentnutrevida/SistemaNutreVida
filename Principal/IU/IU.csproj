@@ -142,6 +142,7 @@
     <Content Include="js\pikaday.js" />
     <Content Include="js\skel-layers.min.js" />
     <Content Include="js\skel.min.js" />
+    <Content Include="Notificaciones.aspx" />
     <Content Include="obj\Debug\IU.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\IU.dll" />
     <Content Include="obj\Debug\IU.pdb" />
@@ -214,6 +215,13 @@
     </Compile>
     <Compile Include="MasterNutreVida.Master.designer.cs">
       <DependentUpon>MasterNutreVida.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Notificaciones.aspx.cs">
+      <DependentUpon>Notificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notificaciones.aspx.designer.cs">
+      <DependentUpon>Notificaciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
