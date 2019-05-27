@@ -151,6 +151,7 @@
     <Content Include="MasterInicioSesion.Master" />
     <None Include="packages.config" />
     <Content Include="OlvidoContrasena.aspx" />
+    <Content Include="PrimerIngreso.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="SeguimientoSemanal.aspx" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="OlvidoContrasena.aspx.designer.cs">
       <DependentUpon>OlvidoContrasena.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrimerIngreso.aspx.cs">
+      <DependentUpon>PrimerIngreso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrimerIngreso.aspx.designer.cs">
+      <DependentUpon>PrimerIngreso.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
