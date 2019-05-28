@@ -2,6 +2,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
  
     <link href="css/tablist.css" rel="stylesheet"/>
+    	<style type="text/css">
+
+        .colorBoton,
+        .colorBoton:active {
+            background-color: #3e8879;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            border-bottom-color: antiquewhite;
+        }
+           .colorBoton:hover {
+                background-color: #336359;
+            }
+   
+    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
@@ -463,7 +476,7 @@
             </div>
             <div style="width:25%; float:left;">
                 <div class="col-11" style="width:25%;">
-                    <asp:Button runat="server" ID="Agregar" Text="Agregar"></asp:Button>
+                    <asp:Button runat="server" ID="Agregar" Text="Agregar"  CssClass="btn btn-primary colorBoton"></asp:Button>
                 </div>
             </div>
             <br />
@@ -490,7 +503,7 @@
         <%--  Seguimiento mensual--%>
         <div id="SM" class="tabcontent">
           <h4 class="mb-0" style="font-size: 36px">Seguimientos <span class="text-primary">Nutricionales</span></h4>
-           <div style="width:50%; float:left;">
+           <%--<div style="width:100%; float:left;">--%>
                <h4>Nuevo Registro</h4>
                <div class="col-11" style="width:50%;">
                 <label class="form-label" for="tejeSem">Días de ejercicio semanales: </label>
@@ -504,13 +517,61 @@
                 <label class="form-label" for="tejeSem">Niveles de Ansiedad semanal y tiempo de comida en donde lo siente : </label>
                 <asp:Label runat="server" ID="Label4" Font-Size="Medium"></asp:Label>
                </div>
-           </div>
+             <h4>Recordatorio de 24 Horas</h4>
+             <table class="table">
+               <tr>
+                <th scope="col">Tiempo de Comida</th>
+                <th scope="col">Hora</th> 
+                <th scope="col">Descripción</th>
+               </tr>
+              <tr>
+                <td>Ayunas</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Desayuno</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+                 <tr>
+                <td>Media Mañana</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+                 <tr>
+                <td>Almuerzo</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+                 <tr>
+                <td>Media Tarde</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+                 <tr>
+                <td>Cena</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+                 <tr>
+                <td>Colación Nocturna</td>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+              </tr>
+            </table>
+          <%-- </div>--%>
             <br />
-            <h4>Registro Anterior</h4>
-           <div style="width:50%; float:left;">
-           </div>
-            <br />
+           <br />
         </div>
+
   </form>
         <script>
         function openInfo(evt, sec) {
@@ -528,7 +589,7 @@
         }
         </script>
           </div>
-         
+     
     <br />
     <br />
     <br />
